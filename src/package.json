@@ -1,0 +1,24 @@
+{
+  "name": "roblox-verification",
+  "version": "1.0.0",
+  "description": "A Discord Verification Bot using Bloxlink API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshyRBLX/roblox-verification.git"
+  },
+  "author": "Joshyyy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoshyRBLX/roblox-verification/issues"
+  },
+  "homepage": "https://github.com/JoshyRBLX/roblox-verification#readme",
+  "dependencies": {
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^3.0.0"
+  }
+}
