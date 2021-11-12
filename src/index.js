@@ -20,7 +20,7 @@ client.on("messageCreate", async (message) => {
     if(message.content.toLowerCase().includes("verify")) {
         let verifiedrole = message.guild.roles.cache.get(VERIFIED_ROLE);
         let robloxid = await util.bloxlink(message.author.id);
-        if(robloxid === ('not_linked')) return message.channel.send(`You don't seem to be linked with Bloxlink.\nPlease verify yourself here: https://blox.link/verify`)
+        if(robloxid === ('not_linked')) return message.channel.send({ content: `You don't seem to be linked with Bloxlink.\nPlease verify yourself here: https://blox.link/verify` })
         let robloxusername = await util.getUsernameById(robloxid);
 
         let embed = new MessageEmbed()
